@@ -1,6 +1,7 @@
 :root {
     --main-bg-color: coral;
     --minor-color: #24292e;
+    --link-color: #868e96;
 }
 
 .bg-primary {
@@ -12,11 +13,11 @@
 }
 
 h1 {
-    color: var(--minor-color) !important;;
+    color: var(--main-bg-color) !important;;
 }
 
 a {
-    color: var(--main-bg-color) !important;
+    color: var(--link-color) !important;
 }
 
 .social-icons a {
